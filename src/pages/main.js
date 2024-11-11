@@ -9,7 +9,7 @@ import image5 from '../img/main/5.jpg';
 
 const App = () => {
   return (
-    <Carousel autoplay showDots>
+    <Carousel autoplay showDots showArrows="true" wrapMode="wrap" scrollDistance="slide">
       <div> <img src={image1} height="200" alt="" /></div>
       <div> <img src={image2} height="200" /></div>
       <div> <img src={image3} height="200" /></div>
